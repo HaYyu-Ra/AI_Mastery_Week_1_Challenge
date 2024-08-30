@@ -1,0 +1,21 @@
+{
+  "python.pythonPath": "C:\\Users\\hayyu.ragea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--disable=C0111"  // Example: Disable missing docstring warning
+  ],
+  "python.formatting.provider": "black",
+  "python.testing.unittestEnabled": true,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/*.pyo": true
+  },
+  "python.autoComplete.extraPaths": [
+    "C:\\Users\\hayyu.ragea\\AppData\\Local\\Programs\\Python\\Python312\\pythonapp\\AI_Mastery_Week_1_Challenge"
+  ],
+  "jupyter.useLegacyPreview": true
+}
